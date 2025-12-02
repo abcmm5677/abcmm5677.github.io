@@ -401,3 +401,10 @@ body {
     border-color: #ffd6e0;
     color: #1F2933;
 }
+
+/* Footer Styles */
+.footer {
+    background-color: #3f518f;
+    color: white;
+    font-size: 0.95rem;
+}
