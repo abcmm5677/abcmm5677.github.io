@@ -1,0 +1,403 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    background-color: #dde3f8;
+    font-family: "Montserrat", sans-serif, Arial;
+    color: #1F2933;
+    line-height: 1.6;
+}
+
+#home,
+#about,
+#education,
+#experience,
+#skills,
+#projects,
+#contact {
+    scroll-margin-top: 90px;
+}
+
+/* Navbar Styles */
+.custom-navbar {
+    background-color: #8ea8d5;
+}
+
+.custom-navbar .navbar-nav{
+    gap: 5rem;
+    margin-left: 2rem;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    display: inline-block;
+    border-radius: 999px;
+    color: #1F2933;
+    font-weight: bold;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .navbar-brand:hover {
+    box-shadow: 0 4px 12px rgba(255, 214, 224, 0.4);
+    background-color: #ffd6e0;
+    color: #1F2933;
+}
+
+.logo-text {
+  font-family: "Ms Madi", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white; 
+}
+
+/* Responsive Navbar */
+@media (max-width: 991.98px) {
+    .custom-navbar .navbar-nav {
+        gap: 0.75rem;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .custom-navbar .navbar-nav .nav-item {
+        width: 100%;
+    }
+
+    .custom-navbar .nav-link {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Home Section Styles */
+.home-intro {
+    font-size: 0.95rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #4f81d9;
+    margin-bottom: 0.75rem;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: 36rem;
+}
+
+.home-divider {
+    width: 100%;
+    max-width: 36rem;
+    height: 1px;
+    background-color: #4f81d9;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    opacity: 0.4;
+}
+
+.home-description {
+    font-size: 1.15rem;
+    color: #1F2933;
+    line-height: 1.6;
+    max-width: 36rem;
+}
+
+.home-photo {
+    border-radius: 50%;
+    max-width: 300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section Styles */
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1F2933;
+}
+
+.about-text {
+    color: #1F2933;
+    font-size: 1.25rem;
+}
+
+.language-table {
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    border-color: rgba(15, 23, 42, 0.08);
+    margin-bottom: 2rem;
+}
+
+.language-table thead th {
+    background-color: #e3f2ff;
+    font-weight: 600;
+    color: #1F2933;
+}
+
+.language-table tbody td {
+    background-color: #f8fbff;
+    font-weight: 400;
+    color: #1F2933;
+}
+
+.language-table td, 
+.language-table th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+/* Education Section Styles */
+.education-section {
+    background-color: transparent;
+}
+
+.edu-item {
+    background-color: white;
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+    margin: 0 auto 2rem;
+}
+
+.edu-item + .edu-item {
+    margin-top: 1.5rem;
+}
+
+.edu-logo {
+    max-width: 200px;
+    height: auto;
+    background-color: white;
+}
+
+.edu-degree {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.edu-school {
+    font-size: 1rem;
+    color: #4f81d9;
+    margin-bottom: 0.5rem;
+}
+
+.edu-dates {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+.edu-subheading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.edu-courses {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+/* Experience Section Styles */
+.experience-section {
+    background-color: transparent;
+}
+
+.exp-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+}
+
+.exp-card + .exp-card {
+    margin-top: 1.75rem;
+}
+
+.exp-org {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #1F2933;
+}
+
+.exp-role {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.exp-dates {
+    font-size: 0.95rem;
+    color: #6b7280;
+}
+
+.exp-desc {
+    font-size: 1rem;
+    color: #1F2933;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 0.6rem 1.8rem;
+    border-radius: 999px;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #8ea8d5;
+    color: #1F2933;
+}
+
+.resume-btn:hover {
+    background-color: #ffd6e0;
+    color: #1F2933;
+    box-shadow: 0 4px 12px rgba(255, 214, 224, 0.4);
+}
+
+/* Projects Section Styles */
+.projects-wrapper {
+    background-color: #ffd6e0;
+    border-radius: 24px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+}
+
+.project-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #1F2933;
+    margin-bottom: 0.25rem;
+}
+
+.project-meta {
+    font-size: 0.95rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+
+.project-desc {
+    font-size: 1rem;
+    color: #1F2933;
+    margin-bottom: 0.75rem;
+}
+
+.project-subheading {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.project-list {
+    padding-left: 1.4rem;
+    margin-bottom: 0;
+    font-size: 0.98rem;
+}
+
+.project-list li {
+    margin-bottom: 0.25rem;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: transparent;
+}
+
+.skill-category-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1F2933;
+}
+
+.skill-item .skill-label {
+    font-size: 0.95rem;
+    color: #1F2933;
+}
+
+.skill-item .skill-level {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+/* Progress bar */
+.skills-section .progress {
+    height: 0.55rem;
+    border-radius: 999px;
+    background-color: rgba(15, 23, 42, 0.06);
+    overflow: hidden;
+}
+
+.skills-section .progress-bar {
+    background-color: #4f81d9;
+}
+
+
+/* Contact Section */
+.contact-section {
+    margin-top: 3rem;
+    background-color: #3f518f;
+    padding: 4rem 4rem;
+}
+
+.contact-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.contact-text {
+    font-size: 1.1rem;
+    color: white;
+    max-width: 32rem;
+    margin: 0 auto 2rem;
+}
+
+/* LinkedIn */
+.contact-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+}
+
+/* Email and copy */
+.contact-email-wrapper {
+    background-color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 999px;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+}
+
+.contact-email {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1F2933;
+}
+
+/* Copy button */
+.contact-copy-btn {
+    border-radius: 999px;
+    border: 1px solid #8ea8d5;
+    background-color: #8ea8d5;
+    color: white;
+    padding: 0.4rem 1.1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contact-copy-btn:hover {
+    background-color: #ffd6e0;
+    border-color: #ffd6e0;
+    color: #1F2933;
+}
