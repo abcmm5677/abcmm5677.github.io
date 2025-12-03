@@ -22,7 +22,7 @@ body {
 
 /* Navbar Styles */
 .custom-navbar {
-    background-color: #8ea8d5;
+    background-color: #033a9b;
 }
 
 .custom-navbar .navbar-nav{
@@ -34,7 +34,7 @@ body {
 .custom-navbar .nav-link {
     display: inline-block;
     border-radius: 999px;
-    color: #1F2933;
+    color: white;
     font-weight: bold;
 }
 
@@ -76,6 +76,7 @@ body {
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #4f81d9;
+    margin-top: 2rem;
     margin-bottom: 0.75rem;
 }
 
@@ -253,7 +254,7 @@ body {
 }
 
 .resume-btn:hover {
-    background-color: #ffd6e0;
+    background-color: white;
     color: #1F2933;
     box-shadow: 0 4px 12px rgba(255, 214, 224, 0.4);
 }
